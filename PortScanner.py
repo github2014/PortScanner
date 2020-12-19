@@ -8,6 +8,7 @@ In fact, there are more than 130,000 ports of which 1,023 are standardized and 4
 
 To get open ports on windows use "netstat -aon"
 """
+
 import socket
 import threading
 from queue import Queue
