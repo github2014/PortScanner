@@ -51,8 +51,8 @@ def worker():
 fill_queue(port_list)
 
 thread_list = []
-# Create 1000 new threads
-for t in range(1000):
+# Create new threads
+for t in range(100):
     thread = threading.Thread(target=worker)
     thread_list.append(thread)
 
